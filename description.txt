@@ -1,0 +1,78 @@
+Description of Dataset:
+age: Age of the individual (in years)
+sex: Sex of the individual (0 for female, 1 for male)
+cp: Chest pain type (0, 1, 2, 3)
+trestbps: Resting blood pressure (in mmHg)
+chol: Serum cholesterol level (in mg/dL)
+fbs: Fasting blood sugar level > 120 mg/dL (0 for False, 1 for True)
+restecg: Resting electrocardiographic results (0, 1, 2)
+thalach: Maximum heart rate achieved during exercise (in bpm)
+exang: Exercise-induced angina (0 for No, 1 for Yes)
+oldpeak: ST depression induced by exercise relative to rest
+slope: Slope of the peak exercise ST segment (0, 1, 2)
+ca: Number of major vessels colored by fluoroscopy (0, 1, 2, 3)
+thal: Thallium stress test results (0, 1, 2, 3)
+target: Presence of heart disease (0 for No, 1 for Yes)
+
+variables ignored:
+trestbps
+chol
+fbs
+restecg
+
+Data Insights:
+Variable: age
+Minimum value: 29
+Maximum value: 77
+
+Variable: sex
+Minimum value: 0
+Maximum value: 1
+
+Variable: cp
+Minimum value: 0
+Maximum value: 3
+
+Variable: trestbps
+Minimum value: 94
+Maximum value: 200
+
+Variable: chol
+Minimum value: 126
+Maximum value: 564
+
+Variable: fbs
+Minimum value: 0
+Maximum value: 1
+
+Variable: restecg
+Minimum value: 0
+Maximum value: 2
+
+Variable: thalach
+Minimum value: 71
+Maximum value: 202
+
+Variable: exang
+Minimum value: 0
+Maximum value: 1
+
+Variable: oldpeak
+Minimum value: 0.0
+Maximum value: 6.2
+
+Variable: slope
+Minimum value: 0
+Maximum value: 2
+
+Variable: ca
+Minimum value: 0
+Maximum value: 4
+
+Variable: thal
+Minimum value: 0
+Maximum value: 3
+
+Variable: target
+Minimum value: 0
+Maximum value: 1
